@@ -1,4 +1,3 @@
-import 'package:e_commerce_application/Screens/sign_in/sign_in_screen.dart';
 import 'package:e_commerce_application/Screens/sign_up/sign_up_screen.dart';
 import 'package:flutter/material.dart';
 import '../constants.dart';

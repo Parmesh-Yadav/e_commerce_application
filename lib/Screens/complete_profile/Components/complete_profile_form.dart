@@ -1,7 +1,5 @@
 // ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors, curly_braces_in_flow_control_structures
 
-import 'package:e_commerce_application/Screens/complete_profile/complete_profile_screen.dart';
-import 'package:e_commerce_application/Screens/login_success/login_success_screen.dart';
 import 'package:e_commerce_application/Screens/otp/otp_screen.dart';
 import 'package:flutter/material.dart';
 

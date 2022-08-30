@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
+import 'package:e_commerce_application/Screens/cart/cart_screen.dart';
 import 'package:flutter/material.dart';
 import '../../../size_config.dart';
 import 'icn_btn_with_counter.dart';
@@ -21,7 +22,9 @@ class HomeHeader extends StatelessWidget {
           SearchField(),
           IcnBtnWithCounter(
             numOfItems: 0,
-            press: () {},
+            press: () {
+              Navigator.pushNamed(context, CartScreen.routeName);
+            },
             svgSrc: "assets/icons/Cart Icon.svg",
           ),
           IcnBtnWithCounter(
